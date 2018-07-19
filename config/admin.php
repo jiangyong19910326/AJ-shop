@@ -5,7 +5,7 @@ return [
     /*
      * Laravel-admin name.
      */
-    'name' => 'Aj-admin',
+    'name' => 'Aj-订单后台管理',
 
     /*
      * Logo in admin panel header.
@@ -37,7 +37,7 @@ return [
     /*
      * Laravel-admin html title.
      */
-    'title' => 'Admin',
+    'title' => 'Aj-订单管理后台',
 
     /*
      * Use `https`.
