@@ -3,6 +3,17 @@ function test_helper() {
     return 'OK';
 }
 
+/**
+ * @return mixed
+ */
+function route_class()
+{
+    return str_replace('.', '-', Route::currentRouteName());
+}
+
+/**
+ * @return array
+ */
 function get_db_config()
 {
     if (getenv('IS_IN_HEROKU')) {
