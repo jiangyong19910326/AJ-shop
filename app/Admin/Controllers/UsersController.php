@@ -23,6 +23,7 @@ class UsersController extends Controller
         return Admin::content(function (Content $content) {
             // 页面标题
             $content->header('用户列表');
+            $content->description('展示用户的基本资料');
             $content->body($this->grid());
         });
     }

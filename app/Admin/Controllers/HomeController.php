@@ -16,7 +16,7 @@ class HomeController extends Controller
         return Admin::content(function (Content $content) {
 
             $content->header('首页');
-            $content->description('描述...');
+            $content->description('软件开发所需的环境，组件和模块.');
 
             $content->row(Dashboard::title());
 
